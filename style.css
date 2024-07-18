@@ -1,0 +1,58 @@
+body{
+    font-family: arial, sans-serif; /*if user's device not available the fisrt font it reaches to next */
+    background-color: rgba(53, 137, 206, 0.437);
+}
+
+h1{
+    color:rgba(24, 4, 245, 0.89);
+    margin:15px;
+}
+
+form{
+    background-color: white;
+    padding: 10px; /*space between text and border of the form*/
+    max-width: 300px;
+    margin: auto; /* horizontal centering the form*/
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px; /*shadow of the form horizontal vertical blur radius*/
+}
+
+#textbox{
+    width:50%;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.834); /*size style color*/
+    padding: 5px;
+    margin: 15px;
+    font-size: 2em;
+}
+
+label{
+    font-size:15px;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgba(249, 0, 0, 0.919);
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 241, 241); 
+    cursor:pointer;     /* it should be pointer when hover over the button */
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.731); /*when hover over the button */
+    color: rgb(5, 5, 5);
+}
+
+#result{                    /*p*/
+    font-size: 1 em;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+
+}

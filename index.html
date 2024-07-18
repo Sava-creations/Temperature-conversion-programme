@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form>  
+        <!-- without form tag this works but we can do css with form to make a box -->
+        <h1>Temperature conversion</h1>
+        <input type="'number" id="textbox" value="0"> <br/>
+
+        <input type="radio" id="f" name="unit"> 
+        <label for='f'>Celcius ➡ Farenhite </label> <br/>
+
+        <input type="radio" id="c" name="unit"> 
+        <label for="c">Farenhite ➡ Celcius  </label> <br>
+
+        <button type="button" onclick="convert()"> Submit</button> 
+        
+        <!-- when click submit it runs this function -->
+        <p id="result"> Select a unit</p>
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
